@@ -51,5 +51,11 @@
   content: "\64";
 }
 .icon-twitter:before {
+  content: "\65";
+}
+.icon-search:before {
   content: "\66";
+}
+.icon-user:before {
+  content: "\67";
 }

@@ -54,17 +54,34 @@ a:hover{
   margin-bottom: 10px;
 }
 .comment-icon{
-  width: 25px;
+  font-size: 30px;
+  height: 40px;
 }
 .no-padding-x{
   padding-left: 0;
   padding-right: 0;
 }
+.no-padding-y{
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.no-padding{
+  padding: 0;
+}
 #area-comentarios{
   width: 80%;
   resize: none;
-  height: 40px;
+  height: 42px;
   border-radius: 0 10px 10px 0;
+}
+/*-------Estilos para el buscador-------*/
+.search-icon{
+  height: 36px;
+  font-size: 24px;
+}
+.lista-busqueda{
+  height: 700px;
+  overflow: scroll;
 }
 @media all and (max-width:768px){
   .size-icon{
