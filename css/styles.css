@@ -40,6 +40,32 @@ a:hover{
   background-color: #4fffd5;
   padding-right: 0;
 }
+/*-------Estilos para el contenido-------*/
+.content{
+  min-height: 360px;
+}
+.img-content{
+  height: 200px;
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+.comment{
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+.comment-icon{
+  width: 25px;
+}
+.no-padding-x{
+  padding-left: 0;
+  padding-right: 0;
+}
+#area-comentarios{
+  width: 80%;
+  resize: none;
+  height: 40px;
+  border-radius: 0 10px 10px 0;
+}
 @media all and (max-width:768px){
   .size-icon{
     position: static;
