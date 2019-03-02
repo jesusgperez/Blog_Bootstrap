@@ -1,0 +1,37 @@
+/**---------Estilos genéricos---------**/
+body{
+  background: #ffd54f;
+}
+a{
+  color: black;
+}
+a:hover{
+  color: #ff7d4f;
+}
+/*--------Estilos para el header--------*/
+.header{
+  background: #4f79ff;
+
+}
+.img-logo{
+  height: 175px;
+  display: block !important;
+  margin-left: -15px;
+}
+.size-icon{
+  font-size: 2.2rem;
+  position: relative;
+  top: 130px;
+  display: inline-block;
+  text-align: center;
+  width: 45px;
+  height: 45px;
+  margin-left: -4px;
+}
+.size-icon:hover{
+  background: rgba(0,0,0,0.1);
+}
+/*----------Estilos para el nav----------*/
+.nav-style{
+  background-color: #4fffd5;
+}
